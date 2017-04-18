@@ -1,5 +1,6 @@
 import HelloWorld from '../HelloWorld';
 import * as chai from "chai";  // TypeScriptなので、こんな感じ。ES6だといらない。 
+import * as sinon from "sinon";
 
 const expect = chai.expect;
 

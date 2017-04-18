@@ -16,7 +16,7 @@ export default class HelloWorld extends React.Component<any, any> {
         return (
             <div>
                 <p>{ this.state.greet }</p>
-                <button onClick={ this.onClick }>Greet</button>
+                <button ref="greetButton" onClick={ this.onClick }>Greet</button>
             </div>
         );
     }
